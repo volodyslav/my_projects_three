@@ -1,0 +1,40 @@
+body { 
+    margin: 0; 
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#title { 
+    position: fixed;
+    top: 8rem;
+    left: 0;
+}
+
+#title:hover{
+    color: rgb(45, 45, 209);
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+a:hover {
+    color: rgb(45, 45, 209);
+}
+
+#arrow:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
